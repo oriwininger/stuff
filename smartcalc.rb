@@ -16,6 +16,8 @@ def start
 	puts "[2] tip calculator"
 	@choose = gets.chomp
 
+	# ori likes to code!
+
 	if @choose == "1" or @choose == "average grade"
 		  start_average_grade
 	elsif @choose == "2" or @choose == "tip callculetor"
